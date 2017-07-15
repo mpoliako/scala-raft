@@ -68,7 +68,7 @@ class ReceiverActor(state: VolatileState) extends AbstractReceiver(state) with A
 
   def actCandidate: Receive = {
     // On conversion to candidate, start election:
-    // Increment currentTerm
+    // Increment currentTerm 
     state.currentTerm += 1
 
     // Vote for self
