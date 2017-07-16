@@ -3,6 +3,8 @@
   */
 object Main extends App {
 
-  println("Hello World")
+  val arr = Array[Int](1,2,3,4,5)
+
+  println(arr.dropRight(6).toList)
 
 }

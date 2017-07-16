@@ -1,3 +1,3 @@
 package com.poliako.raft.model
 
-case class Entry(index: Long, body: Array[Byte])
+case class Entry(term: Long, index: Long, body: Array[Byte])
